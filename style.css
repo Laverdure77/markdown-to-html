@@ -7,24 +7,57 @@ html {
     font-size: 60px;
     text-align: center;
   }
-  
+  h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: darkred;
+
+  }
   p, li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
   }
-p {
+/*p {
     
     width: 500px;
     border: 1px solid black;
   }
-
+*/
  .citation{
      color: blueviolet;
      font-weight: bold;
      font-style: italic;
  }
+ .sentense{
+   text-decoration: underline;
+ }
+ .Hobbylist{
+   color: chartreuse;
+   font-style: oblique;
+
+ }
  imag pic.jpg
  {
-    align-items: ; /*à completer???*/
+    align-items:normal ; /*à completer???*/
+ }
+table {
+
+  table-layout: fixed;
+  border: 5px solid blue;
+  border-collapse: collapse;
+  width: 50%;
+ }
+ th, td{
+   padding: 5px;
+ }
+ tbody td {
+   text-align: center;
+ }
+ /*li{
+
+
+ }*/
+ ul{
+   list-style-image: url(Star.svg);
  }
